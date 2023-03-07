@@ -1,0 +1,12 @@
+{
+  "name": "gubmint",
+  "version": "0.0.1",
+  "description": "TIGER geocoder REST service",
+  "main": "server.js",
+  "scripts": {
+    "server": "PGUSER=postgres PGPASSWORD=postgres PGDATABASE=postgres PGPORT=2345 node server.js",
+    "db": "./db.sh"
+  },
+  "author": "Nate Symer <nate@symer.io>",
+  "license": "ISC"
+}
